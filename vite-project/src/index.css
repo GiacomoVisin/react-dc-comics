@@ -47,7 +47,29 @@
          color: rgb(122, 115, 115); 
     }
     #blue{
-        border-bottom: 4px solid rgba(32, 141, 214, 0.836);
-        padding-bottom: 1rem;
+        color: rgba(4, 141, 233, 0.836);
+        border-bottom: 4px solid rgba(4, 141, 233, 0.836);
+        padding-bottom: 3.7rem;
     }
 }
+
+
+/* header */
+
+
+/* BlackBar */
+
+.blackbar{
+    margin-top: 1rem;
+    background-color: rgb(48, 42, 42);
+    
+    h2{
+        color: white;
+        height: 100px;
+        padding-top: 1.9rem;
+    }
+}
+
+
+
+/* BlackBar */

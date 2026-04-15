@@ -1,10 +1,11 @@
 function BlackBar() {
     return (
         <>
-            <div>
-                
+            <div className="blackbar">
+                <div className="container">
+                    <h2> -- Content Goes Here -- </h2>
+                </div>
             </div>
-
         </>
     )
 }
