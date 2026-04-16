@@ -21,6 +21,7 @@ body{
 
 /* header */
 
+
 .containerFlex {
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,17 @@ body{
 
 
 /* header */
+
+/* jumbo */
+
+.Jumbo{
+    background-image: url(./assets/img/jumbotron.jpg);
+    height: 25rem;
+    width: 200vh;
+    margin-top: 1rem;
+}
+
+/* jumbo */
 
 
 /* BlackBar */

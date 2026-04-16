@@ -1,5 +1,8 @@
 
 import logo from "../assets/img/dc-logo.png"
+import logo2 from "../assets/img/jumbotron.jpg"
+
+
 
 
 function AppHeader() {
@@ -10,7 +13,6 @@ function AppHeader() {
                     <div>
                         <img id="bannerLogo" src={logo}></img>
                     </div>
-
                     <div>
                         <ul id="list">
                             <li> <a href="#">CHARACTERS</a> </li>
@@ -25,6 +27,8 @@ function AppHeader() {
                             <li> <a href="#">SHOP</a></li>
                         </ul>
                     </div>
+            
+
                 </div>
             </div>
 
