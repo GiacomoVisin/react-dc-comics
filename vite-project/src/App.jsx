@@ -1,4 +1,5 @@
 
+import AppFooter from './components/AppFooter'
 import AppHeader from './components/AppHeader'
 import BlackBar from './components/BlackBar'
 import BlueBanner from './components/BlueBanner'
@@ -15,6 +16,7 @@ function App() {
        <BlackBar/>
        <BlueBanner/>
        <MainContent/>
+       <AppFooter/>
     </>
   )
 }
