@@ -108,8 +108,8 @@ body{
 
     .text p {
         padding-top: 47px;
-        padding-right: 55px;
-        color: white;
+        padding-right: 70px;
+        color: rgb(255, 255, 255);
         font-size: 15px;
     }
 }
@@ -200,10 +200,12 @@ body{
     gap: 18px;
 
     .Pfooter {
-        padding-top: 7px;
+        padding-top: 5px;
         color: rgb(4, 118, 242);
-        font-weight: 700;
-        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        font-size: 20px;
+       
     }
 
 }
