@@ -8,7 +8,7 @@ function MainContent() {
                 <div className="UlContainer">
 
                     <ul className="MainUl">
-                        <li><h3 class="whiteH3">DC COMICS</h3></li>
+                        <li><h3 className="whiteH3">DC COMICS</h3></li>
                         <li>Characters</li>
                         <li>Comic</li>
                         <li>Movies</li>
@@ -18,7 +18,7 @@ function MainContent() {
                     </ul>
 
                     <ul className="MainUl">
-                        <li><h3 class="whiteH3">DC</h3></li>
+                        <li><h3 className="whiteH3">DC</h3></li>
                         <li>Terms Of Use</li>
                         <li>Privacy Policy New</li>
                         <li>Ad Choises</li>
@@ -32,7 +32,7 @@ function MainContent() {
                     </ul>
 
                     <ul className="MainUl">
-                        <li><h3 class="whiteH3">SITES</h3></li>
+                        <li><h3 className="whiteH3">SITES</h3></li>
                         <li>DC</li>
                         <li>Mad Magazine</li>
                         <li>DC Kids</li>
@@ -42,7 +42,7 @@ function MainContent() {
                 </div>
 
                 <ul className="MainUl negativeMargin">
-                    <li><h3 class="whiteH3">SHOP</h3></li>
+                    <li><h3 className="whiteH3">SHOP</h3></li>
                     <li>Shop DC</li>
                     <li>Shop DC Collectibles</li>
 
