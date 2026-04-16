@@ -143,10 +143,12 @@ body{
     margin-top: 2rem;
     line-height: 23px;
     font-size: 13px;
+    
 
     .whiteH3 {
         color: white;
-        line-height: 50px
+        line-height: 50px;
+        font-size: 1.1rem;
     }
 }
 
