@@ -1,4 +1,7 @@
 /* Preset Rules */
+body{
+ background-color:white; 
+}
 
 * {
     padding: 0;
@@ -167,6 +170,7 @@
     background-color: rgb(54, 50, 50);
     z-index: 3;
     position: relative;
+    
 
 }
 
@@ -181,9 +185,10 @@
 
 .FlexFooter {
     display: flex;
-    justify-content: space-around;
-    padding: 2rem 2rem;
-    gap: 22rem;
+    justify-content: space-between;
+    padding: 2.1rem 2rem;
+  
+    
 }
 
 .FooterList {
