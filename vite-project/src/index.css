@@ -65,11 +65,10 @@
     
     h2{
         color: white;
-        height: 100px;
-        padding-top: 1.9rem;
+        height: 150px;
+        padding-top: 3.3rem;
     }
 }
-
 
 
 /* BlackBar */
@@ -80,6 +79,8 @@
 .BlueBanner{
     background-color: rgb(4, 118, 242);
     height: 150px;
+    z-index: 2;
+    position: relative;
 }
 
 #BlueList{
@@ -87,6 +88,7 @@
     justify-content: space-around;
     align-items:center;
     list-style: none;
+    margin-left: 1rem;
     
 
     .BlueImg img{
@@ -97,16 +99,53 @@
 
     .text p{
         padding-top: 45px;
-        padding-right: 45px;
+        padding-right: 55px;
         color: white;
     }
 }
 
-
-
-
-
-
-
-
 /* BlueBanner */
+
+
+
+/* MainContent */
+
+.bg{
+    background-image: url("./assets/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+}
+
+#BgLogo{
+   position: relative;
+   top: -26rem;
+   z-index: 1;
+   float: right;
+}
+
+.MainUl{
+    color: Grey;
+    list-style: none;
+    position: relative;
+    top: 2rem;
+    line-height: 25px;
+    font-size: 15px;
+
+    .whiteH3{
+        color: white;
+        line-height: 50px
+    }
+}
+
+.UlContainer{
+    display: flex;
+    gap: 5.5rem;
+   
+}
+
+.negativeMargin{
+   margin-top: -5.5rem
+}
+
+/* MainContent */
