@@ -95,7 +95,7 @@ body {
 
 .card img {
     width: 70%;
-    height: 140px;
+    height: 145px;
     object-fit: cover;
 }
 
@@ -201,6 +201,7 @@ body {
     position: relative;
 
 
+
 }
 
 .BtnSignUp {
@@ -215,7 +216,7 @@ body {
 .FlexFooter {
     display: flex;
     justify-content: space-between;
-    padding: 3.1rem 0.9rem;
+    padding-top: 1.5rem;
 
 
 
@@ -225,6 +226,7 @@ body {
     list-style: none;
     display: flex;
     gap: 18px;
+   
 
     .Pfooter {
         padding-top: 4px;
