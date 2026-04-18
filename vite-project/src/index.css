@@ -60,7 +60,7 @@ body {
         color: rgb(122, 115, 115);
     }
 
-    
+
 }
 
 #list a.active {
@@ -71,6 +71,7 @@ body {
 
 
 /* header */
+
 
 /* jumbo */
 
@@ -83,6 +84,7 @@ body {
 }
 
 /* jumbo */
+
 
 
 /* BlackBar */
@@ -110,6 +112,29 @@ body {
 }
 
 
+.Series {
+    background-color: rgb(4, 118, 242);
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    width: 180px;
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+
+.Loading {
+    background-color: rgb(4, 118, 242);
+    color: white;
+    padding: 0.5rem;
+    width: 200px;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 1rem;
+}
 
 
 /* BlackBar */
