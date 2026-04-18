@@ -16,7 +16,7 @@ function AppFooter() {
                         <ul className="FooterList">
                             <li>  <p className="Pfooter">FOLLOW US</p>       </li>
                             {FooterBar.map((obj)=>(
-                                <li key={obj.id}> <a href={obj.link}> <img src={obj.img}></img> </a></li>
+                                <li key={obj.id}> <a href={obj.link} target="_blank"> <img alt={obj.text}  title={obj.text} src={obj.img}></img> </a></li>
                             ))}
                         </ul>
                     </div>
