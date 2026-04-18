@@ -5,6 +5,8 @@ import BlackBar from './components/BlackBar'
 import BlueBanner from './components/BlueBanner'
 import Jumbotron from './components/jumbotron'
 import MainContent from './components/MainContent'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
