@@ -1,7 +1,7 @@
 
 import logo from "../assets/img/dc-logo.png"
 import logo2 from "../assets/img/jumbotron.jpg"
-
+import navbar from "../../dc-comics-2/navbar.js"
 
 
 
@@ -15,19 +15,12 @@ function AppHeader() {
                     </div>
                     <div>
                         <ul id="list">
-                            <li> <a href="#">CHARACTERS</a> </li>
-                            <li> <a href="#" id="blue"> COMICS </a></li>
-                            <li>  <a href="#">MOVIES</a></li>
-                            <li>  <a href="#">TV </a></li>
-                            <li>  <a href="#">GAMES</a> </li>
-                            <li>  <a href="#">COLLECTIBLES</a></li>
-                            <li>  <a href="#">VIDEOS</a> </li>
-                            <li>  <a href="#">FANS</a> </li>
-                            <li>  <a href="#">NEWS </a></li>
-                            <li> <a href="#">SHOP</a></li>
+                            {navbar.map((element) => (
+                                <li key={element.id}> <a href={element.link}> {element.name} </a> </li>
+                            ))}
                         </ul>
                     </div>
-            
+
 
                 </div>
             </div>
