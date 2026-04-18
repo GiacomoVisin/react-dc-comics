@@ -42,7 +42,7 @@ body {
     font-weight: 500;
     margin-top: 3.2rem;
 
-    
+
 
 
 
@@ -60,11 +60,13 @@ body {
         color: rgb(122, 115, 115);
     }
 
-    #blue {
-        color: rgb(4, 118, 242);
-        border-bottom: 4px solid rgb(4, 118, 242);
-        padding-bottom: 3.7rem;
-    }
+    
+}
+
+#list a.active {
+    border-bottom: 3px solid rgb(4, 118, 242);
+    padding-bottom: 3.7rem;
+    color: rgb(4, 118, 242);
 }
 
 
@@ -228,7 +230,7 @@ body {
     list-style: none;
     display: flex;
     gap: 18px;
-   
+
 
     .Pfooter {
         padding-top: 4px;

@@ -7,7 +7,8 @@ const NavBar = [
     {
         id:2,
         name: "comics",
-        link: "https://www.bing.com/ck/a?!&&p=60aa3458d2465f34c9f849a7eb493ac6cbf1707df86838dc1e6554a344c30549JmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=07ea50c7-ad1c-695c-3024-4631ac6b687c&psq=personaggi+dc&u=a1aHR0cHM6Ly93d3cuZGMuY29tL2NoYXJhY3RlcnM"
+        link: "https://www.bing.com/ck/a?!&&p=60aa3458d2465f34c9f849a7eb493ac6cbf1707df86838dc1e6554a344c30549JmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=07ea50c7-ad1c-695c-3024-4631ac6b687c&psq=personaggi+dc&u=a1aHR0cHM6Ly93d3cuZGMuY29tL2NoYXJhY3RlcnM",
+        active: true
     },
     {
         id:3,

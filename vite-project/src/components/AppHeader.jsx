@@ -16,7 +16,7 @@ function AppHeader() {
                     <div>
                         <ul id="list">
                             {navbar.map((element) => (
-                                <li key={element.id}> <a href={element.link}> {element.name} </a> </li>
+                                <li key={element.id}> <a href={element.link} className={element.active ? "active" : ""}> {element.name} </a> </li>
                             ))}
                         </ul>
                     </div>
