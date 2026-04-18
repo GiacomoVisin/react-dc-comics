@@ -3,6 +3,7 @@ import logo2 from "../assets/img/footer-twitter.png"
 import logo3 from "../assets/img/footer-youtube.png"
 import logo4 from "../assets/img/footer-pinterest.png"
 import logo5 from "../assets/img/footer-periscope.png"
+import FooterBar from "../../dc-comics-2/FooterBar"
 
 
 function AppFooter() {
@@ -14,11 +15,9 @@ function AppFooter() {
                     <div>
                         <ul className="FooterList">
                             <li>  <p className="Pfooter">FOLLOW US</p>       </li>
-                            <li>  <img src={logo}></img> </li>
-                            <li>  <img src={logo2}></img> </li>
-                            <li>  <img src={logo3}></img> </li>
-                            <li>  <img src={logo4}></img> </li>
-                            <li>  <img src={logo5}></img> </li>
+                            {FooterBar.map((obj)=>(
+                                <li key={obj.id}> <a href={obj.link}> <img src={obj.img}></img> </a></li>
+                            ))}
                         </ul>
                     </div>
                 </div>
