@@ -255,10 +255,11 @@ body {
     list-style: none;
     display: flex;
     gap: 18px;
+    padding-top: 7px;
 
 
     .Pfooter {
-        padding-top: 4px;
+        padding-top: 3px;
         color: rgb(4, 118, 242);
         font-weight: 500;
         letter-spacing: 0.2px;
