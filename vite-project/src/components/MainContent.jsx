@@ -1,6 +1,7 @@
 import logo from "../assets/img/dc-logo-bg.png"
 
 
+
 function MainContent() {
     return (
         <div className="bg">
