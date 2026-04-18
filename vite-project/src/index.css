@@ -154,7 +154,7 @@ body {
     background-image: url("./assets/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25rem;
+    height: 23rem;
     position: relative;
 }
 
@@ -170,7 +170,6 @@ body {
 .MainUl {
     color: Grey;
     list-style: none;
-    margin-top: 2rem;
     line-height: 23px;
     font-size: 13px;
 
