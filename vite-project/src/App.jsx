@@ -8,6 +8,7 @@ import MainContent from './components/MainContent'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import comics from '../dc-comics-2/comics'
+import navbar from '../dc-comics-2/navbar'
 
 
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <>
-       <AppHeader/>
+       <AppHeader navbar= {navbar}/>
        <Jumbotron/> 
        <BlackBar comics= {comics}/>
        <BlueBanner/>
