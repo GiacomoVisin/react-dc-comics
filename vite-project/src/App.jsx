@@ -7,6 +7,10 @@ import Jumbotron from './components/jumbotron'
 import MainContent from './components/MainContent'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import comics from '../dc-comics-2/comics'
+
+
+
 
 
 
@@ -17,7 +21,7 @@ function App() {
     <>
        <AppHeader/>
        <Jumbotron/> 
-       <BlackBar/>
+       <BlackBar comics= {comics}/>
        <BlueBanner/>
        <MainContent/>
        <AppFooter/>
