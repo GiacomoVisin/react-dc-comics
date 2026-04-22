@@ -2,7 +2,7 @@ import ComicCard from "./ComicCard"
 
 
 
-function BlackBar({comics}) {
+function BlackBar({ comics }) {
     return (
 
         <div className="blackbar">
@@ -11,9 +11,7 @@ function BlackBar({comics}) {
                 <div className="row g-1">
                     {comics.map((item) => (
                         <div key={item.id} className="col-6 col-md-4 col-lg-2">
-                            <div className="card w-60 mt-3  border-0 bg-transparent">
-                                <ComicCard item ={item}/>
-                            </div>
+                            <ComicCard item={item} />
                         </div>
                     ))}
                 </div>
