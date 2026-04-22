@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import comics from '../dc-comics-2/comics'
 import navbar from '../dc-comics-2/navbar'
+import FooterBar from '../dc-comics-2/FooterBar'
 
 
 
@@ -25,7 +26,7 @@ function App() {
        <BlackBar comics= {comics}/>
        <BlueBanner/>
        <MainContent/>
-       <AppFooter/>
+       <AppFooter FooterBar ={FooterBar}/>
     </>
   )
 }
