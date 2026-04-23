@@ -1,14 +1,10 @@
-import logo from "../assets/img/buy-comics-digital-comics.png"
-import logo2 from "../assets/img/buy-comics-merchandise.png"
-import logo3 from "../assets/img/buy-comics-subscriptions.png"
-import logo4 from "../assets/img/buy-comics-shop-locator.png"
-import logo5 from "../assets/img/buy-dc-power-visa.png"
 
 
 
 
 
-function BlueBanner () {
+
+function BlueBanner ({logo, logo2, logo3, logo4, logo5} ) {
     return(
         <div className="BlueBanner">
             <div className="container">
